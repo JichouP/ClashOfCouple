@@ -1,0 +1,28 @@
+{
+  "name": "clash_of_couple",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/*.js",
+    "build": "browserify src/main.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JichouP/ClashOfCouple.git"
+  },
+  "author": "JichouP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JichouP/ClashOfCouple/issues"
+  },
+  "homepage": "https://github.com/JichouP/ClashOfCouple#readme",
+  "dependencies": {
+    "pixi.js": "^4.6.2"
+  },
+  "devDependencies": {
+    "browserify": "^14.5.0",
+    "eslint": "^4.13.1"
+  }
+}
